@@ -1,0 +1,1 @@
+ htseq-count haptags_rna_variants/preprocessing/10TL_T6/10TL_T6.markdup.sorted.bam rna_variants/variant_calling/top_contigs.gtf -t gene --mode union --secondary-alignments ignore --stranded no --nonunique none  --additional-attr gene_name --add-chromosome-info -c hapgenes.tsv

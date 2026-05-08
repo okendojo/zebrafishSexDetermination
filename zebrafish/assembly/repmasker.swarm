@@ -1,0 +1,2 @@
+RepeatMasker -e ncbi -pa $(expr $SLURM_CPUS_PER_TASK / 2)  -xsmall -gff -dir cent2_mask -species "vertebrates" /data/okendojo/zebrafish/data/fish6/asm
+/t2t/polishing/asm_polished/NHGRI_Fish6_cons.fasta

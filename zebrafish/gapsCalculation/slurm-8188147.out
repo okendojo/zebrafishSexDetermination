@@ -1,0 +1,9 @@
+[+] Loading python 3.10  ... 
+Traceback (most recent call last):
+  File "/vf/users/okendojo/zebrafish/data/fish11/gapfilling/gaps2bed.py", line 51, in <module>
+    main(input_filename, output_filename)
+  File "/vf/users/okendojo/zebrafish/data/fish11/gapfilling/gaps2bed.py", line 36, in main
+    sequences = read_fasta_file(input_filename)
+  File "/vf/users/okendojo/zebrafish/data/fish11/gapfilling/gaps2bed.py", line 8, in read_fasta_file
+    for line in file:
+OSError: [Errno 116] Stale file handle

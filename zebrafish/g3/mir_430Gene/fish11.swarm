@@ -1,0 +1,13 @@
+bowtie2 -p 24 -q --local -x /data/okendojo/zebrafish/data/g3/mir_430Gene/cage_data/asm_indices/fish11_index -U /data/okendojo/zebrafish/data/g3/mir_430Gene/cage_data/fastq/SRX156356_SRR516560.fastq.gz -S /data/okendojo/zebrafish/data/g3/mir_430Gene/cage_data/fish11/SRX156356_SRR516560_fish11.sam
+
+bowtie2 -p 24 -q --local -x /data/okendojo/zebrafish/data/g3/mir_430Gene/cage_data/asm_indices/fish11_index -U /data/okendojo/zebrafish/data/g3/mir_430Gene/cage_data/fastq/SRX156356_SRR516561.fastq.gz -S /data/okendojo/zebrafish/data/g3/mir_430Gene/cage_data/fish11/SRX156356_SRR516561_fish11.sam
+
+bowtie2 -p 24 -q --local -x /data/okendojo/zebrafish/data/g3/mir_430Gene/cage_data/asm_indices/fish6_index -U /data/okendojo/zebrafish/data/g3/mir_430Gene/cage_data/fastq/SRX156356_SRR516561.fastq.gz -S /data/okendojo/zebrafish/data/g3/mir_430Gene/cage_data/fish11/SRX156356_SRR516561_fish6.sam
+
+bowtie2 -p 24 -q --local -x /data/okendojo/zebrafish/data/g3/mir_430Gene/cage_data/asm_indices/fish6_index -U /data/okendojo/zebrafish/data/g3/mir_430Gene/cage_data/fastq/SRX156356_SRR516560.fastq.gz -S /data/okendojo/zebrafish/data/g3/mir_430Gene/cage_data/fish11/SRX156356_SRR516560_fish6.sam
+
+bowtie2 -p 24 -q --local -x /data/okendojo/zebrafish/data/g3/mir_430Gene/cage_data/asm_indices/g3_asm_index -U /data/okendojo/zebrafish/data/g3/mir_430Gene/cage_data/fastq/SRX156356_SRR516560.fastq.gz -S /data/okendojo/zebrafish/data/g3/mir_430Gene/cage_data/fish11/SRX156356_SRR516560_g3.sam
+
+bowtie2 -p 24 -q --local -x /data/okendojo/zebrafish/data/g3/mir_430Gene/cage_data/asm_indices/g3_asm_index -U /data/okendojo/zebrafish/data/g3/mir_430Gene/cage_data/fastq/SRX156356_SRR516561.fastq.gz -S /data/okendojo/zebrafish/data/g3/mir_430Gene/cage_data/fish11/SRX156356_SRR516561_g3.sam
+
+

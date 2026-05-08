@@ -1,0 +1,284 @@
+[+] Loading Meryl 1.4.1  ... 
+
+Estimating memory usage for 'AB.unique.meryl'.
+
+ p         blocks   ent/blk             bits gigabytes (allowed: 360 GB)
+-- -------------- --------- ---------------- ---------
+23        8388608         0     449108798848    52.283
+24       16777216         0     444201022640    51.712
+25       33554432         0     439922392032    51.214
+26       67108864         0     436885275408    50.860
+27      134217728         0     436297632320    50.792  (smallest)
+28      268435456         0     440541827440    51.286
+29      536870912         0     454315481248    52.889
+30     1073741824         0     486879616976    56.680
+31     2147483648         0     556487845632    64.784
+-- -------------- --------- ---------------- ---------
+       5553699024 total kmers
+
+For 5553699024 distinct 31-mers (with 27 bits used for indexing and 35 bits for tags):
+    0.516 GB memory for block indices -    134217728 elements 33 bits wide)
+    0.156 GB memory for block lengths -    134217728 elements 10 bits wide)
+   22.629 GB memory for kmer tags     -   5553699024 elements 35 bits wide)
+   10.991 GB memory for kmer values   -   5553699024 elements 17 bits wide)
+   16.500 GB memory for buffers
+   50.792 GB memory
+
+Estimating memory usage for 'TU.unique.meryl'.
+
+ p         blocks   ent/blk             bits gigabytes (allowed: 360 GB)
+-- -------------- --------- ---------------- ---------
+23        8388608         0     449440405928    52.322
+24       16777216         0     444526708165    51.750
+25       33554432         0     440242156002    51.251
+26       67108864         0     437199117823    50.897
+27      134217728         0     436605553180    50.828  (smallest)
+28      268435456         0     440843826745    51.321
+29      536870912         0     454611558998    52.924
+30     1073741824         0     487169773171    56.714
+31     2147483648         0     556772080272    64.817
+-- -------------- --------- ---------------- ---------
+       5559620579 total kmers
+
+For 5559620579 distinct 31-mers (with 27 bits used for indexing and 35 bits for tags):
+    0.516 GB memory for block indices -    134217728 elements 33 bits wide)
+    0.156 GB memory for block lengths -    134217728 elements 10 bits wide)
+   22.653 GB memory for kmer tags     -   5559620579 elements 35 bits wide)
+   11.003 GB memory for kmer values   -   5559620579 elements 17 bits wide)
+   16.500 GB memory for buffers
+   50.828 GB memory
+
+Estimating memory usage for 'TL.unique.meryl'.
+
+ p         blocks   ent/blk             bits gigabytes (allowed: 360 GB)
+-- -------------- --------- ---------------- ---------
+23        8388608         0     499165561258    58.111
+24       16777216         0     493477029552    57.448
+25       33554432         0     488417643446    56.859
+26       67108864         0     484599771324    56.415
+27      134217728         0     483231372738    56.256  (smallest)
+28      268435456         0     486694812360    56.659
+29      536870912         0     499687710670    58.171
+30     1073741824         0     531471090900    61.871
+31     2147483648         0     600298564058    69.884
+-- -------------- --------- ---------------- ---------
+       6334454522 total kmers
+
+For 6334454522 distinct 31-mers (with 27 bits used for indexing and 35 bits for tags):
+    0.516 GB memory for block indices -    134217728 elements 33 bits wide)
+    0.156 GB memory for block lengths -    134217728 elements 10 bits wide)
+   25.810 GB memory for kmer tags     -   6334454522 elements 35 bits wide)
+   13.274 GB memory for kmer values   -   6334454522 elements 18 bits wide)
+   16.500 GB memory for buffers
+   56.256 GB memory
+
+Estimating memory usage for 'WIK.unique.meryl'.
+
+ p         blocks   ent/blk             bits gigabytes (allowed: 360 GB)
+-- -------------- --------- ---------------- ---------
+23        8388608         0     430442242837    50.110
+24       16777216         0     425959383384    49.588
+25       33554432         0     422105669531    49.140
+26       67108864         0     419493469662    48.835
+27      134217728         0     419330743329    48.817  (smallest)
+28      268435456         0     423999855204    49.360
+29      536870912         0     438198425767    51.013
+30     1073741824         0     471187478250    54.853
+31     2147483648         0     541220623661    63.006
+-- -------------- --------- ---------------- ---------
+       5128782269 total kmers
+
+For 5128782269 distinct 31-mers (with 27 bits used for indexing and 35 bits for tags):
+    0.516 GB memory for block indices -    134217728 elements 33 bits wide)
+    0.156 GB memory for block lengths -    134217728 elements 10 bits wide)
+   20.897 GB memory for kmer tags     -   5128782269 elements 35 bits wide)
+   10.747 GB memory for kmer values   -   5128782269 elements 18 bits wide)
+   16.500 GB memory for buffers
+   48.817 GB memory
+
+Memory required:  206.691 GB
+Memory limit:     360.000 GB
+
+Loading kmers from 'AB.unique.meryl' into lookup table.
+
+ p         blocks   ent/blk             bits gigabytes (allowed: 360 GB)
+-- -------------- --------- ---------------- ---------
+23        8388608         0     449108798848    52.283
+24       16777216         0     444201022640    51.712
+25       33554432         0     439922392032    51.214
+26       67108864         0     436885275408    50.860
+27      134217728         0     436297632320    50.792  (smallest)
+28      268435456         0     440541827440    51.286
+29      536870912         0     454315481248    52.889
+30     1073741824         0     486879616976    56.680
+31     2147483648         0     556487845632    64.784
+-- -------------- --------- ---------------- ---------
+       5553699024 total kmers
+
+For 5553699024 distinct 31-mers (with 27 bits used for indexing and 35 bits for tags):
+    0.516 GB memory for block indices -    134217728 elements 33 bits wide)
+    0.156 GB memory for block lengths -    134217728 elements 10 bits wide)
+   22.629 GB memory for kmer tags     -   5553699024 elements 35 bits wide)
+   10.991 GB memory for kmer values   -   5553699024 elements 17 bits wide)
+   16.500 GB memory for buffers
+   50.792 GB memory
+
+Counting size of buckets.
+
+
+Summing bucket sizes.
+  block indices are 33 bits wide -- sum lengths 5553715152 (including 16128 empty pointers)
+  block lengths are 23 bits wide -- max length  4770458
+
+Setting pointers.
+
+Will load 5553699024 kmers.  Skipping 0 (too low) and 0 (too high) kmers.
+
+Allocating space for 5553715152 kmer positions.
+  suffixes of  35 bits each -> 194380030320 bits ( 22.629 GB) in blocks of  32.000 MB
+  values   of  17 bits each ->  94413157584 bits ( 10.991 GB) in blocks of  32.000 MB
+
+Filling buckets.
+
+
+Loaded 5553699024 kmers.  Skipped 0 (too low) and 0 (too high) kmers.
+
+Loading kmers from 'TU.unique.meryl' into lookup table.
+
+ p         blocks   ent/blk             bits gigabytes (allowed: 360 GB)
+-- -------------- --------- ---------------- ---------
+23        8388608         0     449440405928    52.322
+24       16777216         0     444526708165    51.750
+25       33554432         0     440242156002    51.251
+26       67108864         0     437199117823    50.897
+27      134217728         0     436605553180    50.828  (smallest)
+28      268435456         0     440843826745    51.321
+29      536870912         0     454611558998    52.924
+30     1073741824         0     487169773171    56.714
+31     2147483648         0     556772080272    64.817
+-- -------------- --------- ---------------- ---------
+       5559620579 total kmers
+
+For 5559620579 distinct 31-mers (with 27 bits used for indexing and 35 bits for tags):
+    0.516 GB memory for block indices -    134217728 elements 33 bits wide)
+    0.156 GB memory for block lengths -    134217728 elements 10 bits wide)
+   22.653 GB memory for kmer tags     -   5559620579 elements 35 bits wide)
+   11.003 GB memory for kmer values   -   5559620579 elements 17 bits wide)
+   16.500 GB memory for buffers
+   50.828 GB memory
+
+Counting size of buckets.
+
+
+Summing bucket sizes.
+  block indices are 33 bits wide -- sum lengths 5559636707 (including 16128 empty pointers)
+  block lengths are 23 bits wide -- max length  5462328
+
+Setting pointers.
+
+Will load 5559620579 kmers.  Skipping 0 (too low) and 0 (too high) kmers.
+
+Allocating space for 5559636707 kmer positions.
+  suffixes of  35 bits each -> 194587284745 bits ( 22.653 GB) in blocks of  32.000 MB
+  values   of  17 bits each ->  94513824019 bits ( 11.003 GB) in blocks of  32.000 MB
+
+Filling buckets.
+
+
+Loaded 5559620579 kmers.  Skipped 0 (too low) and 0 (too high) kmers.
+
+Loading kmers from 'TL.unique.meryl' into lookup table.
+
+ p         blocks   ent/blk             bits gigabytes (allowed: 360 GB)
+-- -------------- --------- ---------------- ---------
+23        8388608         0     499165561258    58.111
+24       16777216         0     493477029552    57.448
+25       33554432         0     488417643446    56.859
+26       67108864         0     484599771324    56.415
+27      134217728         0     483231372738    56.256  (smallest)
+28      268435456         0     486694812360    56.659
+29      536870912         0     499687710670    58.171
+30     1073741824         0     531471090900    61.871
+31     2147483648         0     600298564058    69.884
+-- -------------- --------- ---------------- ---------
+       6334454522 total kmers
+
+For 6334454522 distinct 31-mers (with 27 bits used for indexing and 35 bits for tags):
+    0.516 GB memory for block indices -    134217728 elements 33 bits wide)
+    0.156 GB memory for block lengths -    134217728 elements 10 bits wide)
+   25.810 GB memory for kmer tags     -   6334454522 elements 35 bits wide)
+   13.274 GB memory for kmer values   -   6334454522 elements 18 bits wide)
+   16.500 GB memory for buffers
+   56.256 GB memory
+
+Counting size of buckets.
+
+
+Summing bucket sizes.
+  block indices are 33 bits wide -- sum lengths 6334470650 (including 16128 empty pointers)
+  block lengths are 23 bits wide -- max length  5761679
+
+Setting pointers.
+
+Will load 6334454522 kmers.  Skipping 0 (too low) and 0 (too high) kmers.
+
+Allocating space for 6334470650 kmer positions.
+  suffixes of  35 bits each -> 221706472750 bits ( 25.810 GB) in blocks of  32.000 MB
+  values   of  18 bits each -> 114020471700 bits ( 13.274 GB) in blocks of  32.000 MB
+
+Filling buckets.
+
+
+Loaded 6334454522 kmers.  Skipped 0 (too low) and 0 (too high) kmers.
+
+Loading kmers from 'WIK.unique.meryl' into lookup table.
+
+ p         blocks   ent/blk             bits gigabytes (allowed: 360 GB)
+-- -------------- --------- ---------------- ---------
+23        8388608         0     430442242837    50.110
+24       16777216         0     425959383384    49.588
+25       33554432         0     422105669531    49.140
+26       67108864         0     419493469662    48.835
+27      134217728         0     419330743329    48.817  (smallest)
+28      268435456         0     423999855204    49.360
+29      536870912         0     438198425767    51.013
+30     1073741824         0     471187478250    54.853
+31     2147483648         0     541220623661    63.006
+-- -------------- --------- ---------------- ---------
+       5128782269 total kmers
+
+For 5128782269 distinct 31-mers (with 27 bits used for indexing and 35 bits for tags):
+    0.516 GB memory for block indices -    134217728 elements 33 bits wide)
+    0.156 GB memory for block lengths -    134217728 elements 10 bits wide)
+   20.897 GB memory for kmer tags     -   5128782269 elements 35 bits wide)
+   10.747 GB memory for kmer values   -   5128782269 elements 18 bits wide)
+   16.500 GB memory for buffers
+   48.817 GB memory
+
+Counting size of buckets.
+
+
+Summing bucket sizes.
+  block indices are 33 bits wide -- sum lengths 5128798397 (including 16128 empty pointers)
+  block lengths are 23 bits wide -- max length  4753897
+
+Setting pointers.
+
+Will load 5128782269 kmers.  Skipping 0 (too low) and 0 (too high) kmers.
+
+Allocating space for 5128798397 kmer positions.
+  suffixes of  35 bits each -> 179507943895 bits ( 20.897 GB) in blocks of  32.000 MB
+  values   of  18 bits each ->  92318371146 bits ( 10.747 GB) in blocks of  32.000 MB
+
+Filling buckets.
+
+
+Loaded 5128782269 kmers.  Skipped 0 (too low) and 0 (too high) kmers.
+
+Opening inputs:
+  '/data/okendojo/zebrafish/data/g3/assembly/asm_270625/assembly.fasta'
+
+Opening outputs:
+  '-'
+
+Bye!  (216 seconds to initialize and 733 seconds to compute)

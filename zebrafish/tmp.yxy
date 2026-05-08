@@ -1,0 +1,315 @@
+.
+├── annotation
+│   ├── blat.sh
+│   ├── braker_GRCz11.sh
+│   ├── braker.sh
+│   ├── braker_T2T.sh
+│   ├── br.sh
+│   ├── merquiry.sh
+│   ├── meryl.sh
+│   ├── modDotPlot.sh
+│   ├── prothit.sh
+│   ├── repeatmasker.sh
+│   ├── repeats_ID.sh
+│   ├── repModeler.sh
+│   ├── round_01.sh
+│   ├── summarize_repeats.sh
+│   ├── t2t.sh
+│   └── trinitySamplelist.sh
+├── assembly
+│   ├── blastp.sh
+│   ├── chrassignment.sh
+│   ├── contigPlot.py
+│   ├── custome_verkko.sh
+│   ├── dedupe.sh
+│   ├── fasta_rename.py
+│   ├── fish11_hifi_ul.sh
+│   ├── fish6_customVerkko.sh
+│   ├── hifiasm_no_ONT.sh
+│   ├── hifiasm.sh
+│   ├── hificonda.sh
+│   ├── jellyfish.sh
+│   ├── mashmap.sh
+│   ├── mbg.sh
+│   ├── metaspade.sh
+│   ├── pauve.sh
+│   ├── quast.sh
+│   ├── ragtag.sh
+│   ├── seqtk.sh
+│   ├── telomereAnalysis.sh
+│   ├── verkkoNotrio.sh
+│   ├── vkconda_fish11.sh
+│   ├── vkconda.sh
+│   └── zcustomeverrko.sh
+├── centromere_analysis
+│   ├── dna-nn.sh
+│   ├── satellite_repFinder.sh
+│   ├── SAT.sh
+│   └── slurm-10484048.out
+├── crossover
+│   ├── bowt2Index.sh
+│   ├── bowtie2Mapping.sh
+│   ├── bwa_index.sh
+│   ├── bwa.sh
+│   ├── recombination
+│   │   ├── assign_co_origin.r
+│   │   ├── BroadScale_GLM_analysis_code.FINAL_Github.R
+│   │   ├── find_gc_byCompareWithBG.r
+│   │   ├── find_hmm_pass_allow_small_chunk.r
+│   │   ├── GATK
+│   │   │   ├── GenomeAnalysisTK.jar
+│   │   │   └── resources
+│   │   │       ├── CheckPileup.java
+│   │   │       ├── CountLoci.java
+│   │   │       ├── CountReads.java
+│   │   │       ├── exampleBAM.bam
+│   │   │       ├── exampleBAM.bam.bai
+│   │   │       ├── exampleFASTA.dict
+│   │   │       ├── exampleFASTA.fasta
+│   │   │       ├── exampleFASTA.fasta.fai
+│   │   │       ├── Pileup.java
+│   │   │       └── PrintReads.java
+│   │   ├── get_crossover.r
+│   │   ├── GLM_input_data.rdata
+│   │   ├── Phase_F4.R
+│   │   ├── pre_process_pipeline_F5.sh
+│   │   └── run_GATK_pipeline_F5.sh
+│   ├── rmdupSamtools.sh
+│   ├── sampyAlignment.sh
+│   └── samtoolsSort.sh
+├── g3
+│   ├── aseqcounter.sh
+│   ├── aseqGATK.sh
+│   ├── awking.sh
+│   ├── bamcoverage.sh
+│   ├── bamintersect.sh
+│   ├── bamtobed.sh
+│   ├── bamTobed.sh
+│   ├── bamTofastq.sh
+│   ├── bcfmpileup.sh
+│   ├── bcftools_isec.sh
+│   ├── bcftools.sh
+│   ├── beagle.sh
+│   ├── binKmers.sh
+│   ├── binQuantifytranscripts.sh
+│   ├── build_meryl.sh
+│   ├── cage_sarek.sh
+│   ├── callVariantsPipeline.sh
+│   ├── clas2.sh
+│   ├── classificationReads.sh
+│   ├── correlationAnalysis.py
+│   ├── dnaTobinRNA.sh
+│   ├── eQTLQC.sh
+│   ├── f2_graphs.vg
+│   ├── featurecounts.sh
+│   ├── findUniqueKmers.sh
+│   ├── flye_asm.sh
+│   ├── formatvcfs.sh
+│   ├── gatkAnnotator.sh
+│   ├── geneMapsToHaplotypes.sh
+│   ├── geneTranscriptAssociation.sh
+│   ├── hapExtractor.sh
+│   ├── haplo.sh
+│   ├── haplotypeCaller.sh
+│   ├── haplotypeSpecificKmers.sh
+│   ├── hapTranscriptQuant.sh
+│   ├── hifiasm.sh
+│   ├── joinVCF_gatk.sh
+│   ├── kmercountsmerylookup.sh
+│   ├── meryl_lookup.sh
+│   ├── mir_430Gene
+│   │   ├── bowtie_build.sh
+│   │   ├── fetchNGS.sh
+│   │   ├── fish11.swarm
+│   │   ├── mapping.sh
+│   │   ├── rnaseq_nfcore.sh
+│   │   └── tmp.swarm
+│   ├── mpileup.sh
+│   ├── PDTG-project
+│   │   ├── environment.yaml
+│   │   ├── README.md
+│   │   └── scripts
+│   │       ├── GTF_generator
+│   │       │   ├── hhv4_cir2linear.py
+│   │       │   ├── hhv4_cutpaste_fasta.py
+│   │       │   └── README.md
+│   │       ├── haplotype-transcript
+│   │       │   ├── 00.construct_diploidGraph.minigraph.sh
+│   │       │   ├── 01.construct_splicedGraph_rmNonGene.sh
+│   │       │   ├── 01.construct_splicedGraph.sh
+│   │       │   ├── 02.gcsa_indexing.sh
+│   │       │   ├── 03.vg_mpmap.autoindex.sh
+│   │       │   ├── 03.vg_mpmap.ori.sh
+│   │       │   ├── 03.vg_mpmap.sh
+│   │       │   ├── 04.rpvg.autoindex.sh
+│   │       │   ├── 04.rpvg.sh
+│   │       │   ├── 05.rpvg_result_ENST_to_ENSG.ipynb
+│   │       │   ├── 05.rpvg_result.ipynb
+│   │       │   ├── 06.mpmap.assessment.sh
+│   │       │   ├── 07.autoindex.usingVCF.sh
+│   │       │   ├── Mainscript.autoindexRun.sh
+│   │       │   ├── Mainscript.nonGene.sh
+│   │       │   ├── Mainscript.sh
+│   │       │   ├── plot_stats.ipynb
+│   │       │   ├── README.md
+│   │       │   └── Vis_isoforms.ipynb
+│   │       ├── isoseq-analysis
+│   │       │   ├── blastp.sh
+│   │       │   ├── isoquant.sh
+│   │       │   ├── pbmm2.sh
+│   │       │   ├── plts
+│   │       │   │   ├── blastP.ipynb
+│   │       │   │   ├── Compare_geneAnnot.ipynb
+│   │       │   │   ├── structure_polyA.extended.svg
+│   │       │   │   ├── structure_polyA.svg
+│   │       │   │   ├── structure_swiss_histogram.svg
+│   │       │   │   ├── structure_TSS.extended.svg
+│   │       │   │   ├── structure_TSS.svg
+│   │       │   │   └── TSS_TES.support.ipynb
+│   │       │   ├── sqanti3_bed
+│   │       │   │   ├── human_polyA_motif.txt
+│   │       │   │   ├── rnawg_cerberus_tes.chm13.bed
+│   │       │   │   ├── rnawg_cerberus_tes.chm13.bed.unmap
+│   │       │   │   ├── rnawg_cerberus_tes.hg002.bed
+│   │       │   │   ├── rnawg_cerberus_tes.hg002.bed.unmap
+│   │       │   │   ├── rnawg_cerberus_tes.hg002.dip.bed
+│   │       │   │   ├── rnawg_cerberus_tes.hg002.mat.bed
+│   │       │   │   ├── rnawg_cerberus_tes.hg002.mat.bed.unmap
+│   │       │   │   ├── rnawg_cerberus_tes.hg002.pat.bed
+│   │       │   │   ├── rnawg_cerberus_tes.hg002.pat.bed.unmap
+│   │       │   │   ├── rnawg_cerberus_tes.hg38.bed
+│   │       │   │   ├── rnawg_cerberus_tss.chm13.bed
+│   │       │   │   ├── rnawg_cerberus_tss.chm13.bed.unmap
+│   │       │   │   ├── rnawg_cerberus_tss.hg002.dip.bed
+│   │       │   │   ├── rnawg_cerberus_tss.hg002.mat.bed
+│   │       │   │   ├── rnawg_cerberus_tss.hg002.mat.bed.unmap
+│   │       │   │   ├── rnawg_cerberus_tss.hg002.pat.bed
+│   │       │   │   ├── rnawg_cerberus_tss.hg002.pat.bed.unmap
+│   │       │   │   ├── rnawg_cerberus_tss.hg38.bed
+│   │       │   │   ├── rnawg_lapa_polyA.bed.gz
+│   │       │   │   └── rnawg_lapa_tss.bed.gz
+│   │       │   ├── sqanti3.chm13.sh
+│   │       │   ├── sqanti3.hg002.sh
+│   │       │   ├── sqanti3.hg38.sh
+│   │       │   ├── sqanti3.sh
+│   │       │   ├── _submit_norm.sh
+│   │       │   └── wrapper.pbmm2.isoquant.sqanti3.sh
+│   │       └── schedular
+│   │           ├── _submit_gpu.sh
+│   │           ├── _submit_largemem.sh
+│   │           ├── _submit_multinode.sh
+│   │           ├── _submit_norm.sh
+│   │           └── _submit_quick.sh
+│   ├── phaser.sh
+│   ├── picard.sh
+│   ├── readGroupAdd.sh
+│   ├── readsWithIdentifyingSnps.sh
+│   ├── rnaseq_nfcore.sh
+│   ├── rnavar.sh
+│   ├── rpvg_quant.sh
+│   ├── samtools_fastq.sh
+│   ├── samtoolsmerge.sh
+│   ├── sarek.sh
+│   ├── snpGeneCounts.py
+│   ├── splicequant.sh
+│   ├── star_index.sh
+│   ├── STAR.sh
+│   ├── tmp_autoindex.sh
+│   ├── tmpSarek.sh
+│   ├── transcriptomeGraph.sh
+│   ├── tu_wikclas.sh
+│   ├── variantCalling.sh
+│   ├── vcfPhasing.sh
+│   ├── vennDiagram.sh
+│   ├── verkkoassembly.sh
+│   ├── vg_autoindex.sh
+│   ├── vg_construct.sh
+│   ├── vg_garaffe.sh
+│   ├── vg_gbwl.sh
+│   ├── vg_giraffe.sh
+│   ├── vg_gmap_2.sh
+│   ├── vg_gmap.sh
+│   ├── vg_gmaptime12.sh
+│   ├── vg_index.sh
+│   ├── vg_mpmap.sh
+│   ├── vg_rna.sh
+│   ├── washmap.sh
+│   └── whatsmap.sh
+├── gapsCalculation
+│   ├── gaps2bed.sh
+│   ├── gaps.py
+│   ├── get-N-sizes.sh
+│   └── slurm-8188147.out
+├── mapping
+│   ├── assembly_compare.sh
+│   ├── blastn_chr4.sh
+│   ├── cat_hifi.sh
+│   ├── delly.sh
+│   ├── fish11_ont_pb_winnowmap.sh
+│   ├── fish11_winnomap.sh
+│   ├── gem_mapGene.sh
+│   ├── gemMapper.sh
+│   ├── graphaligner.sh
+│   ├── graphResolution.sh
+│   ├── heterozygosityAnalysis.sh
+│   ├── lastz_rdotplot.sh
+│   ├── lastz.sh
+│   ├── mafft.sh
+│   ├── map_verkko.sh
+│   ├── minimap2_chr4.sh
+│   ├── minimap2.sh
+│   ├── ont_res.sh
+│   ├── ragtag_scaffold.sh
+│   ├── tar.sh
+│   ├── winnowmap_gap_alignment.sh
+│   └── winnowmap.sh
+├── meryls
+│   ├── generateHapmers.sh
+│   ├── generatingMeryldb.sh
+│   ├── haplotypeSpecificmers.sh
+│   ├── hapSpecifickmers.sh
+│   ├── k-mer-build.sh
+│   ├── merquiry.sh
+│   └── meryl_unionsum.sh
+├── polishing
+│   ├── bcftools_consensus.sh
+│   ├── filterLowQualbases.sh
+│   ├── illuminapolishing.sh
+│   ├── merfin.sh
+│   ├── meryl.sh
+│   ├── pilonPolishing.sh
+│   ├── polishing.sh
+│   └── raconPolish.sh
+├── qualityControl
+│   ├── adapfilt.sh
+│   ├── pchop.sh
+│   ├── porechop.sh
+│   ├── slurm-11080919.out
+│   └── trime_galore.sh
+├── singlecell
+│   ├── arc-gexatac.sh
+│   ├── dropest.sh
+│   ├── grcz11.config
+│   ├── mkref2.sh
+│   ├── mkref.sh
+│   ├── ranger-atac.sh
+│   ├── ranger-rna.sh
+│   └── scrnaseq.sh
+├── tmp.yxy
+└── variantcall
+    ├── bwa.sh
+    ├── calibrateDragstrModel.sh
+    ├── deepvariant.sh
+    ├── dragen.sh
+    ├── eQTL.sh
+    ├── GATK.sh
+    ├── gatk_snv.sh
+    ├── minimap2.sh
+    ├── pichard.sh
+    ├── samtools.sh
+    ├── smoove.sh
+    ├── ssak.sh
+    ├── syri.sh
+    └── variantCalling.sh
+
+24 directories, 288 files

@@ -1,0 +1,3 @@
+bowtie2  -p 24 -q -x /data/okendojo/zebrafish/data/g3/mir_430Gene/cage_data/asm_indices/chr4_index  -U /data/okendojo/zebrafish/data/g3/mir_430Gene/cage_data/fastq/SRX156356_SRR516560.fastq.gz -S /data/okendojo/zebrafish/data/g3/mir_430Gene/cage_data/fish11/SRR516560_1_fish11.sam
+
+bowtie2  -p 24 -q  -x /data/okendojo/zebrafish/data/g3/mir_430Gene/cage_data/asm_indices/chr4_index -U /data/okendojo/zebrafish/data/g3/mir_430Gene/cage_data/fastq/SRX156356_SRR516561.fastq.gz -S /data/okendojo/zebrafish/data/g3/mir_430Gene/cage_data/fish11/SRR516561_1_fish11.sam
